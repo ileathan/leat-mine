@@ -18,24 +18,32 @@ XMR: 46WNbmwXpYxiBpkbHjAgjC65cyzAxtaaBQjcGpAZquhBKw2r8NtPQniEgMJcwFMCZzSBrEJtmPs
 ## Install
 
 ```
-npm install -g leat-mine
+npm install leat-mine
 ```
 
 ## Usage
 
+```
+cd ./leat-mine/bin
+```
+
 If you've edited `./config/defaults` then merely enter
 ```
-leat-mine
+./leat-mine
 ```
 Otherwise something like
 ```
-leat-mine <YOUR-MONERO-ADDRESS> --pool-host=pool.supportxmr.com --pool-port=3333 --pool-pass=<YOUR-PASSWORD-FOR-POOL>
+./leat-mine <YOUR-MONERO-ADDRESS> --pool-host=pool.supportxmr.com --pool-port=3333 --pool-pass=<YOUR-PASSWORD-FOR-POOL>
 ```
 OR
 ```
-leat-mine <YOUR-ELECTRONEUM-ADDRESS> --pool-host=etnpool.minekitten.com --pool-port=3333
+./leat-mine <YOUR-ELECTRONEUM-ADDRESS> --pool-host=etnpool.minekitten.com --pool-port=3333
 ```
 
+
+# Pre-requisites:
+
+NodeJS
 
 **The bellow documentation is pulled word for word from coin-hive**
 
