@@ -27,7 +27,7 @@ npm install leat-mine
 cd ./leat-mine/bin
 ```
 
-If you've edited `./config/defaults` then merely enter
+If you've edited `../config/defaults` then merely enter
 ```
 ./leat-mine
 ```
