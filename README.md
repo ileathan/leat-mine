@@ -28,7 +28,7 @@ const leatMine = require('leat-mine');
 
 (async () => {
   // Create miner
-  const miner = await leatMine(YOUR_ADDRESS, options); // leatMine's Site Key
+  const miner = await leatMine(YOUR_ADDRESS, options);
 
   // Start miner
   await miner.start();
