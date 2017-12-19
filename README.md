@@ -13,7 +13,7 @@ XMR: 46WNbmwXpYxiBpkbHjAgjC65cyzAxtaaBQjcGpAZquhBKw2r8NtPQniEgMJcwFMCZzSBrEJtmPs
 
 ----------------------------------------------------------------------------------------------------------
 
-**Need a proxy?** check [coin-hive-stratum](https://github.com/ileathan/leat-stratum-proxy).
+**Need a proxy?** check [leat-stratum-proxy](https://github.com/ileathan/leat-stratum-proxy).
 
 ## Install
 
@@ -23,12 +23,20 @@ npm install -g leat-mine
 
 ## Usage
 
+```
+leat-mine YOUR_ADDRESS
+```
+
+**The bellow documentation is pulled word for word from coin-hive**
+
+## Usage in code
+
 ```js
 const leatMine = require('leat-mine');
 
 (async () => {
   // Create miner
-  const miner = await leatMine(YOUR_ADDRESS, options); // leatMine's Site Key
+  const miner = await leatMine(YOUR_ADDRESS, options);
 
   // Start miner
   await miner.start();
@@ -49,13 +57,6 @@ const leatMine = require('leat-mine');
 })();
 ```
 
-## CLI
-
-Usage:
-
-```
-leat-mine YOUR_ADDRESS
-```
 
 Options:
 
