@@ -9,5 +9,5 @@ module.exports = {
   minerUrl: 'https://leat.io/lib/leat-mine.js',
   puppeteerUrl: null,
   pool: null,
-  launch: { executablePath: '/usr/bin/chromium-browser' }
+  launch: {} // Im using executablePath: '/usr/bin/chromium-browser' because i x-compiled chrome for arm
 };
