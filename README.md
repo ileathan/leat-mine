@@ -23,9 +23,19 @@ npm install -g leat-mine
 
 ## Usage
 
+If you've edited `./config/defaults` then merely enter
 ```
-leat-mine YOUR_ADDRESS
+leat-mine
 ```
+Otherwise something like
+```
+leat-mine <YOUR-MONERO-ADDRESS> --pool-host=pool.supportxmr.com --pool-port=3333 --pool-pass=<YOUR-PASSWORD-FOR-POOL>
+```
+OR
+```
+leat-mine <YOUR-ELECTRONEUM-ADDRESS> --pool-host=etnpool.minekitten.com --pool-port=3333
+```
+
 
 **The bellow documentation is pulled word for word from coin-hive**
 
@@ -168,15 +178,3 @@ All the following environment variables can be used to configure the miner from 
 * `LEATMINE_POOL_PORT`: A custom stratum pool port, it must be used in combination with `LEATMINE_POOL_HOST`.
 
 * `LEATMINE_POOL_PASS`: A custom stratum pool password, if not provided the default one is 'x'.
-
-
-# Run from CLI
-
-```
-leat-mine <YOUR-MONERO-ADDRESS> --pool-host=pool.supportxmr.com --pool-port=3333 --pool-pass=<YOUR-PASSWORD-FOR-POOL>
-```
-
-```
-leat-mine <YOUR-ELECTRONEUM-ADDRESS> --pool-host=etnpool.minekitten.com --pool-port=3333
-```
-# leat-mine
