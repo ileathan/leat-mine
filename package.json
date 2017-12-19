@@ -1,34 +1,4 @@
 {
-  "_from": "leat-mine",
-  "_id": "leat-mine@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-a1e8kDI8IlLA38yBWAesfmY+4USDyDL6+ExhAOlYP7O6Qrb2vcf9qzOYasUokip0qVx5sIZKLGr/TBoS2wFhSw==",
-  "_location": "/leat-mine",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "leat-mine",
-    "name": "leat-mine",
-    "escapedName": "leat-mine",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/leat-mine/-/leat-mine-1.0.0.tgz",
-  "_shasum": "921e0405305c917d63bcbfbcb03e28ea1e8cb0cd",
-  "_spec": "leat-mine",
-  "_where": "/Users/leathan",
-  "author": {
-    "name": "leathan"
-  },
-  "bugs": {
-    "url": "https://github.com/ileathan/leat-mine/issues"
-  },
   "bundleDependencies": false,
   "dependencies": {
     "elegant-spinner": "^1.0.1",
@@ -72,5 +42,9 @@
   "scripts": {
     "test": "mocha test --timeout 600000"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/ileathan/leat-mine/issues"
+  },
+  "author": "leathan"
 }

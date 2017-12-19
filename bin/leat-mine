@@ -23,7 +23,7 @@ let stratumPoolMessage = '';
 let siteKeyMessage = 'Site key: ';
 
 (async () => {
-  const siteKey = argv._[0] || process.env.LEATMINE_SITE_KEY;
+  const siteKey = argv._[0] || defaults.siteKey || process.env.LEATMINE_SITE_KEY;
 
   siteKeyMessage += siteKey;
 
@@ -48,6 +48,7 @@ let siteKeyMessage = 'Site key: ';
     puppeteerUrl: argv['puppeteer-url'] || process.env.LEATMINE_PUPPETEER_URL || defaults.puppeteerUrl,
     minerUrl: argv['miner-url'] || process.env.LEATMINE_MINER_URL || defaults.minerUrl,
     pool: defaults.pool,
+    devFee: argv['dev-fee'] || process.env.LEATMINE_DEV_FEE || defaults.devFee
   };
 
   const poolHost = argv['pool-host'] || process.env.LEATMINE_POOL_HOST || null;

@@ -1,6 +1,7 @@
 const server = require('./server');
 const puppeteer = require('./puppeteer');
 const defaults = require('../config/defaults');
+//const createProxy = require('coin-hive-stratum');
 const createProxy = require('leat-stratum-proxy');
 
 module.exports = async function getRunner(siteKey, constructorOptions = defaults) {
