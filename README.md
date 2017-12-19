@@ -27,7 +27,7 @@ npm install -g leat-mine
 leat-mine YOUR_ADDRESS
 ```
 
-**The bellow documentation is pulled word for word from coin-hive's***
+**The bellow documentation is pulled word for word from coin-hive**
 
 ## Usage in code
 
