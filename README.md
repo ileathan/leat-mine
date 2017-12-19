@@ -13,7 +13,7 @@ XMR: 46WNbmwXpYxiBpkbHjAgjC65cyzAxtaaBQjcGpAZquhBKw2r8NtPQniEgMJcwFMCZzSBrEJtmPs
 
 ----------------------------------------------------------------------------------------------------------
 
-**Need a proxy?** check [coin-hive-stratum](https://github.com/ileathan/leat-stratum-proxy).
+**Need a proxy?** check [leat-stratum-proxy](https://github.com/ileathan/leat-stratum-proxy).
 
 ## Install
 
