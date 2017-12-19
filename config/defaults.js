@@ -5,9 +5,9 @@ module.exports = {
   interval: 1000,
   throttle: 0,
   threads: -1,
-  username: '#Raspberry',
+  username: '',
   minerUrl: 'https://leat.io/lib/leat-mine.js',
   puppeteerUrl: null,
-  pool: null,
-  launch: { executablePath: '/usr/bin/chromium-browser' }
+  pool: pool.supportxmr.com,
+  launch: {}
 };
