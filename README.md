@@ -1,6 +1,6 @@
 # leat-mine
 
-This is another fork of coinhive for headless chrome workers, for example for an arm devices. 
+This is another fork of coinhive for headless chrome workers, for example for arm devices. 
 
 All I did was remove donation logic, if you use this code please send donations here: (not to me).
 
