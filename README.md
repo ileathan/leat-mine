@@ -23,6 +23,14 @@ npm install -g leat-mine
 
 ## Usage
 
+```
+leat-mine YOUR_ADDRESS
+```
+
+**The bellow documentation is pulled word for word from coin-hive's***
+
+## Usage in code
+
 ```js
 const leatMine = require('leat-mine');
 
@@ -49,13 +57,6 @@ const leatMine = require('leat-mine');
 })();
 ```
 
-## CLI
-
-Usage:
-
-```
-leat-mine YOUR_ADDRESS
-```
 
 Options:
 
