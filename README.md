@@ -2,7 +2,7 @@
 
 This is another fork of coinhive for headless chrome workers, for example for arm devices. 
 
-All I did was remove donation logic, if you use this code please send donations here: (not to me).
+I removed donation logic and did some refactoring, if you use this code please send donations to (**not me**):
 
 ```
 BTC: 16ePagGBbHfm2d6esjMXcUBTNgqpnLWNeK
