@@ -186,3 +186,10 @@ All the following environment variables can be used to configure the miner from 
 * `LEATMINE_POOL_PORT`: A custom stratum pool port, it must be used in combination with `LEATMINE_POOL_HOST`.
 
 * `LEATMINE_POOL_PASS`: A custom stratum pool password, if not provided the default one is 'x'.
+
+
+
+
+
+-------------------------------------------------------------------------
+- with <3 from https://leat.io
