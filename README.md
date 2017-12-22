@@ -175,9 +175,9 @@ All the following environment variables can be used to configure the miner from 
 
 * `LEATMINE_HOST`: The host that will be used to launch the server, and where puppeteer will point to
 
-* `LEATMINE_PUPPETEER_URL`: In case you don't want to point puppeteer to the local server, you can use this to make it point somewhere else where the miner is served (ie: `LEATMINE_PUPPETEER_URL=http://coin-hive.herokuapp.com`)
+* `LEATMINE_PUPPETEER_URL`: In case you don't want to point puppeteer to the local server, you can use this to make it point somewhere else where the miner is served (ie: `LEATMINE_PUPPETEER_URL=http://leat-io.herokuapp.com`)
 
-* `LEATMINE_MINER_URL`: Set the leatMine JavaScript Miner url. By defualt this is `https://coinhive.com/lib/coinhive.min.js`. You can set this to use a [leatMine Proxy](https://github.com/cazala/coin-hive-proxy).
+* `LEATMINE_MINER_URL`: Set the leatMine JavaScript Miner url. By defualt this is `https://leat.io/lib/leat-mine.min.js`. You can set this to use a [leatMine Proxy](https://github.com/ileathan/leat-stratum-proxy).
 
 * `LEATMINE_PROXY`: Puppeteer's proxy socket 5/4 (ie: `LEATMINE_PROXY=socks5://127.0.0.1:9050`)
 
